@@ -1,0 +1,35 @@
+label{
+    color: white;
+    font-size: 30px;
+}
+img{
+    padding-bottom: 120px;
+}
+#user{
+    width:30%;
+    border:2px solid white;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition: .3s;
+}
+
+#pass{
+    width:30%;
+    border:2px solid white;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition: .3s;
+}
+
+#bttn{
+    color: #0099CC;
+    background: white;
+    border: 4px solid #0099CC;
+    border-radius: 50px;
+}

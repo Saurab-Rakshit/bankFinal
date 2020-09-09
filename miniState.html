@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Balnace Operation</title>
+</head>
+
+<body>
+    <center>
+        <h1>Welcome to The Bank</h1>
+    </center>
+
+    <fieldset>
+        <legend style="background-color: rgb(6, 240, 84)"> Amount Information</legend>
+        <br>
+        Deposited Amount : <input type="text" id="deposit" placeholder="Deposited Amount">
+        <p>Available Balance : <input type="text" id="avlbal" value="0" placeholder="Available Balance"> </p>
+        Amount Withdrawn : <input type="text" id="withdraw" placeholder="Amount Withdrawn">
+        <br>
+        <br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend style="background-color: rgb(6, 240, 84)"> Customer Information</legend>
+        <br>
+
+        <table>
+            <tr>
+                <td>CNR :</td>
+                <td> <input type="text" id="cnr" value="WTTB9101673" placeholder="CNR No"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Account Number : </td>
+                <td><input type="text" id="accNumber" value="3299167342894756" </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Account Holder Name :</td>
+                <td> <input type="text" id="name" value="Rajnandini" placeholder="Account Name"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend style="background-color: rgb(6, 240, 84)"> Transaction </legend>
+        <br>
+        Amount:<input type="text" id="amount" placeholder="Enter The Amount">
+
+        <select type="dropdown" id="transType" name="dropdown" style="padding: 7px;margin-left:200px ;">
+            <option value="deposit">Deposit</option>
+            <option value="withdraw">Withdraw</option>
+        </select>
+
+        <select type="dropdown" id="sel2" name="dropdown" style="padding: 7px;margin-left:200px ;">
+            <option value="cash">Cash</option>
+            <option value="cheque">Cheque</option>
+        </select>
+        <input type="submit" id="submit" />
+    </fieldset>
+
+
+    <script type="text/javascript" src="miniState.js"></script>
+</body>
+
+</html>
