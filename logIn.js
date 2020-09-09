@@ -5,7 +5,7 @@ document.getElementById("bttn").addEventListener('click', () => {
     if (username !== "saurab") {
         // alert("WRONG USERNAME");
     } if (password !== "12345") {
-        alert("wrong password or password");
+        alert("wrong username or password");
     } else {
         alert("login Successfull");
         window.location = "miniState.html";
